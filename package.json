@@ -1,0 +1,13 @@
+{
+  "name": "pp-ailumette",
+  "version": "1.0.0",
+  "description": "ailumette game",
+  "main": "main.js",
+  "repository": "https://github.com/Maxime404/pp-ailumette.git",
+  "author": "Maxime404 <galissairemaxime24@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^7.3.3",
+    "lodash": "^4.17.20"
+  }
+}
