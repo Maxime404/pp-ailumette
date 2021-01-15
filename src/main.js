@@ -8,7 +8,7 @@ class Ailumette {
     board = [
         [' ', ' ', ' ', '|', ' ', ' ', ' '],
         [' ', ' ', '|', '|', '|', ' ', ' '],
-        [' ', '|', '|', "|", '|', '|', ' '],
+        [' ', '|', '|', '|', '|', '|', ' '],
         ['|', '|', '|', '|', '|', '|', '|']
     ]
     questionLine = [{
@@ -48,7 +48,7 @@ class Ailumette {
             this.board = [
                 [' ', ' ', ' ', '|', ' ', ' ', ' '],
                 [' ', ' ', '|', '|', '|', ' ', ' '],
-                [' ', '|', '|', "|", '|', '|', ' '],
+                [' ', '|', '|', '|', '|', '|', ' '],
                 ['|', '|', '|', '|', '|', '|', '|']
             ]
             this.restartAnswer = null
@@ -130,7 +130,7 @@ class Ailumette {
                     console.log('Error: this line is out of range')
                     return false
                 } else if (matchesCount === 0) {
-                    console.log('Error: there’s no more matches here')
+                    console.log('Error: this line is empty')
                     return false
                 }
             } else if (type === 'matches') {
